@@ -3,7 +3,7 @@ function sum(grades) {
 }
 
 function average() {
-    let grades = [6,8,9,2,5,10];
+    const grades = [6,8,9,2,5,10];
     return sum(grades)/grades.length;
 }
 
